@@ -1,0 +1,12 @@
+Source: ros-jade-ackermann-msgs
+Section: misc
+Priority: extra
+Maintainer: Jim Rothrock <jim.rothrock@protonmail.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-message-generation, ros-jade-std-msgs
+Homepage: http://ros.org/wiki/ackermann_msgs
+Standards-Version: 3.9.2
+
+Package: ros-jade-ackermann-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-message-runtime, ros-jade-std-msgs
+Description: ROS messages for robots using Ackermann steering.
