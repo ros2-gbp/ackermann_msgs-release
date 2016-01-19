@@ -1,3 +1,24 @@
+## ackermann_msgs (indigo) - 1.0.1-0
+
+The packages in the `ackermann_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ackermann_msgs -t indigo -r indigo` on `Tue, 19 Jan 2016 21:36:38 -0000`
+
+The `ackermann_msgs` package was released.
+
+Version of package(s) in repository `ackermann_msgs`:
+- upstream repository: https://github.com/ros-drivers/ackermann_msgs.git
+- release repository: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
+- rosdistro version: `1.0.0-1`
+- old version: `1.0.0-1`
+- new version: `1.0.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## ackermann_msgs (jade) - 1.0.0-0
 
 The packages in the `ackermann_msgs` repository were released into the `jade` distro by running `/usr/bin/bloom-release ackermann_msgs -t jade -r jade` on `Fri, 04 Sep 2015 03:11:04 -0000`
