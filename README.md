@@ -1,3 +1,26 @@
+## ackermann_msgs (noetic) - 1.0.2-1
+
+The packages in the `ackermann_msgs` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic ackermann_msgs --edit` on `Wed, 13 May 2020 10:23:51 -0000`
+
+The `ackermann_msgs` package was released.
+
+Version of package(s) in repository `ackermann_msgs`:
+
+- upstream repository: https://github.com/ros-drivers/ackermann_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## ackermann_msgs (dashing) - 2.0.2-1
 
 The packages in the `ackermann_msgs` repository were released into the `dashing` distro by running `/usr/bin/bloom-release ackermann_msgs --rosdistro dashing` on `Wed, 28 Aug 2019 11:56:01 -0000`
