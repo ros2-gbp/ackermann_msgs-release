@@ -1,5 +1,5 @@
 ## Time stamped drive command for robots with Ackermann steering.
 #  $Id$
 
-std_msgs/Header header
+Header          header
 AckermannDrive  drive

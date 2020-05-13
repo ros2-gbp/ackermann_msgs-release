@@ -1,28 +1,16 @@
-cmake_minimum_required(VERSION 3.5)
-
+cmake_minimum_required(VERSION 3.0.2)
 project(ackermann_msgs)
 
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
+find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
+# We want boost/format.hpp, which isn't in its own component.
+find_package(Boost REQUIRED)
 
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
+add_message_files(
+  DIRECTORY msg
+  FILES AckermannDrive.msg AckermannDriveStamped.msg)
 
-find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+generate_messages(DEPENDENCIES std_msgs)
 
-find_package(std_msgs REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/AckermannDrive.msg"
-  "msg/AckermannDriveStamped.msg"
-  DEPENDENCIES std_msgs
-  ADD_LINTER_TESTS
-)
-
-ament_export_dependencies(rosidl_default_runtime)
-
-ament_package()
+catkin_package(
+  CATKIN_DEPENDS message_runtime std_msgs
+  DEPENDS Boost)
