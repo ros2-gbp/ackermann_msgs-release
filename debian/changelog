@@ -1,0 +1,15 @@
+ros-rolling-ackermann-msgs (2.0.2-1focal) focal; urgency=high
+
+  * missing std msg dependency
+  * Contributors: Rousseau Vincent
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 27 Aug 2019 22:00:00 -0000
+
+ros-rolling-ackermann-msgs (2.0.1-1focal) focal; urgency=high
+
+  * Initial version for ros2
+  * Contributors: Marcel Stüttgen
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 13 Aug 2019 22:00:00 -0000
+
+
