@@ -1,0 +1,15 @@
+ros-humble-ackermann-msgs (2.0.2-3jammy) jammy; urgency=high
+
+  * missing std msg dependency
+  * Contributors: Rousseau Vincent
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 28 Aug 2019 07:00:00 -0000
+
+ros-humble-ackermann-msgs (2.0.1-3jammy) jammy; urgency=high
+
+  * Initial version for ros2
+  * Contributors: Marcel Stüttgen
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 14 Aug 2019 07:00:00 -0000
+
+
