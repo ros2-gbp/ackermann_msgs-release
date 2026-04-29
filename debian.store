@@ -1,1 +1,1 @@
-{"base": "adb7e1fbf513", "parent": "debian/rolling/ackermann_msgs", "previous": "c72aaf997781", "trim": "", "trimbase": ""}
+{"base": "4980de8", "parent": "debian/lyrical/ackermann_msgs", "previous": "7cd2858", "trim": "", "trimbase": ""}
